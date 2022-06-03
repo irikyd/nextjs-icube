@@ -23,6 +23,10 @@ export default function Home() {
           <h3>News</h3>
         </Link>
 
+        <Link href='/categories'>
+          <h3>Category</h3>
+        </Link>
+
 
         <h3>Fetch Data</h3>
         <Link href='/csr'>
