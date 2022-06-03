@@ -103,7 +103,7 @@ const Detail = () => {
                                     margin: 'auto'
                                 }}>
                                     <Typography variant="h6" component="h6" gutterBottom>
-                                        No Result Data for category '<b>{ data.category.name }</b>'
+                                        No Result Data for category &apos;<b>{ data.category.name }</b>&apos;
                                     </Typography>
                                     <Link href='/'>
                                         <a>
