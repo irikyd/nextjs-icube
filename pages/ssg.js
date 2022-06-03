@@ -4,7 +4,7 @@ function Ssg({ data }) {
     return (
         <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh', padding: '60px'}}>
             <h1 style={{ textAlign: 'center' }}>Ssg</h1>
-            <div style={{ display: 'grid', gap: '20px', gridTemplateColumns: 'repeat(4, 1fr)'}}>
+            <div className="grid">
                 {
                     data.map(item => (
                         <Link key={item.idMeal} href={{ pathname: `/detail-ssg/${item.idMeal}`}} style={{ padding: '10px', border: '1px solid #ddd', borderRadius: '8px', textDecoration: 'none', color: 'black', fontWeight: '700'}}>

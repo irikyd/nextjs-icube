@@ -19,7 +19,7 @@ function Csr() {
             <h1 style={{ textAlign: 'center' }}>Csr</h1>
             {
                 data && data.length > 0 ? (
-                    <div style={{ display: 'grid', gap: '20px', gridTemplateColumns: 'repeat(4, 1fr)'}}>
+                    <div className="grid">
                         {
                             data.map(item => (
                                 <div key={item.idMeal} style={{ padding: '10px', border: '1px solid #ddd', borderRadius: '8px', textDecoration: 'none', color: 'black', fontWeight: '700'}}>
