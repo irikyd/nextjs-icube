@@ -1,5 +1,5 @@
 import { useLazyQuery } from "@apollo/client";
-import { GET_CATEGORIES } from "./schema";
+import { GET_CATEGORIES } from "@/schema";
 
 const Detail = () => {
     const [loadCategory, { called, loading, data }] = useLazyQuery(GET_CATEGORIES);

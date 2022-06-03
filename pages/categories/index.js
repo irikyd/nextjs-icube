@@ -1,6 +1,6 @@
 import { useQuery } from '@apollo/client';
 import Link from 'next/link';
-import { GET_CATEGORIES } from './schema';
+import { GET_CATEGORIES } from '@/schema';
 
 
 const Index = () => {
